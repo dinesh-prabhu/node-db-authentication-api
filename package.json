@@ -1,0 +1,25 @@
+{
+    "name": "node-db-authentication-api",
+    "version": "0.0.1",
+    "description": "API to do simple authentication in NodeJS",
+    "main": "server.js",
+    "type": "module",
+    "scripts": {
+        "serve": "nodemon server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/dinesh-prabhu/node-db-authentication-api"
+    },
+    "keywords": [
+        "NodeJS",
+        "Authentication"
+    ],
+    "license": "MIT",
+    "devDependencies": {
+        "nodemon": "^2.0.15"
+    },
+    "dependencies": {
+        "express": "^4.17.2"
+    }
+}
