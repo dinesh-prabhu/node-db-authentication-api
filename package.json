@@ -5,7 +5,7 @@
     "main": "server.js",
     "type": "module",
     "scripts": {
-        "serve": "nodemon server.js"
+        "serve": "nodemon server.js development"
     },
     "repository": {
         "type": "git",
@@ -20,7 +20,9 @@
         "nodemon": "^2.0.15"
     },
     "dependencies": {
+        "bcrypt": "^5.0.1",
         "express": "^4.17.2",
+        "jsonwebtoken": "^8.5.1",
         "mongoose": "^6.2.2"
     }
 }
